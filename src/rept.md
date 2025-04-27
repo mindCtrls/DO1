@@ -1,9 +1,3 @@
-<style>
-   div {
-    margin-top: 20%; /* Отступ сверху */
-   }
-  </style>
-
 ## Part 1. Установка ОС
 <div align="center">
   ![screen_task_1](misc/images/rept/task_1.png)
@@ -18,7 +12,7 @@
   ![screen_task_2.1](misc/images/rept/task_2.1.png)
   <figcaption>Команда для создания пользователя</figcaption>
 </div>
-<div align="center">
+<div align="center" style="margin-top: 20%">
   ![screen_task_2.2](misc/images/rept/task_2.2.png)
   <figcaption>Вывод команды cat /etc/passwd</figcaption>
 </div>
