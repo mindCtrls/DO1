@@ -1,7 +1,8 @@
 ## Part 1. Установка ОС
-<p align="center">
+<div align="center">
+  <img width="400" height="250" src="misc/images/rept/task_1.png">
   ![screen_task_1](misc/images/rept/task_1.png)
-</p>
+</div>
 
 
 ## Part 2. Создание пользователя
