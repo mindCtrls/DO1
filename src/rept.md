@@ -34,7 +34,7 @@
 
 ##### Выведи названия сетевых интерфейсов с помощью консольной команды.
 <div align="center">
-  ![screen_task_2.2](misc/images/rept/task_3.3.png)
+  ![screen_task_2.2](misc/images/rept/task_3.4.png)
   <figcaption>Вывод сетевых интерфейсов</figcaption>
 </div>
 
@@ -49,14 +49,15 @@ lo - локахост (127.0.0.1) интерфейс, указывающий н�
 
 ##### Определи и выведи на экран внешний ip-адрес шлюза (ip) и внутренний IP-адрес шлюза, он же ip-адрес по умолчанию (gw). 
 
-- <div align="center">
-  ![screen_task_2.2](misc/images/rept/task_3.5.1.png)
-  <figcaption>Внещний ip адрес</figcaption>
+  <div align="center">
+    ![screen_task_2.2](misc/images/rept/task_3.5.1.png)
+    <figcaption>Внещний ip адрес</figcaption>
   </div>
-- <div align="center">
-  ![screen_task_2.2](misc/images/rept/task_3.5.2.png)
-  <figcaption>Внутренний ip адрес</figcaption>
+  <div align="center">
+    ![screen_task_2.2](misc/images/rept/task_3.5.2.png)
+    <figcaption>Внутренний ip адрес</figcaption>
   </div>
+
 ##### Задай статичные (заданные вручную, а не полученные от DHCP-сервера) настройки ip, gw, dns (используй публичный DNS-серверы, например 1.1.1.1 или 8.8.8.8).  
 
   <div align="center">
@@ -153,22 +154,22 @@ root пользователь - это пользователь у которо�
   ctrl + w , ctrl + r или ctrl + \ - замена
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.1.1.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Поиск в редакторе nano</figcaption>
   </div>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.1.2.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Замена в редакторе nano</figcaption>
   </div>
 
   / + слово - поиск
   :%s/a/u/g - замена во всем файле 'a' на 'u', без учета регистра
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.2.1.png)
-    <figcaption>Окно vim с измененным текстом</figcaption>
+    <figcaption>Поиск в редакторе vim</figcaption>
   </div>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.2.1.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Замена в редакторе vim</figcaption>
   </div>
 
 
@@ -176,11 +177,11 @@ root пользователь - это пользователь у которо�
   alt+shift+5 - замена. n- пропуск, y-текущее, ! - все без подтверждения, q - отмена
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.3.1.png)
-    <figcaption>Окно emacs с измененным текстом</figcaption>
+    <figcaption>Поиск в редакторе emacs</figcaption>
   </div>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.3.2.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Замена в редакторе emacs</figcaption>
   </div>
 
 ## Part 8. Установка и базовая настройка сервиса **SSHD**
@@ -203,7 +204,7 @@ netstat -tan
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_8.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Вывод команды netstat -tan</figcaption>
   </div>
 
 - proto - протокол подключения
@@ -219,7 +220,7 @@ netstat -tan
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.1.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Окно top</figcaption>
   </div>
 
 uptime (сколько сервер включен/активен) - 10:02
@@ -233,37 +234,37 @@ pid по процу - 1474
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.2.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Сортировка по PID</figcaption>
   </div>
   
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.3.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Сортировка по Percent CPU</figcaption>
   </div>
   
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.4.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Сортировка по Percent_mem</figcaption>
   </div>
   
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.5.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Сортировка по TIME</figcaption>
   </div>
   
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.6.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Фильтр sshd</figcaption>
   </div>
   
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.7.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Поиск syslog</figcaption>
   </div>
   
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.8.png)
-    <figcaption>Окно nano с измененным текстом</figcaption>
+    <figcaption>Добавление информации о uptime, hostname, clock</figcaption>
   </div>
 
 ## Part 10. Использование утилиты **fdisk**
@@ -295,7 +296,7 @@ pid по процу - 1474
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_11.1.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Вывод df</figcaption>
   </div>
 
 ##### Запусти команду df -Th.
@@ -307,7 +308,7 @@ pid по процу - 1474
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_11.2.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Вывод df -Th</figcaption>
   </div>
 
 Тип файловой системы - ext4
@@ -316,21 +317,21 @@ pid по процу - 1474
 
 ##### Запусти команду du.
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_12.1.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    ![screen_task_2.2](misc/images/rept/task_12.3.png)
+    <figcaption>Вывод du</figcaption>
   </div>
 
 ##### Выведи размер папок /home, /var, /var/log (в байтах, в человекочитаемом виде).
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_12.2.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    ![screen_task_2.2](misc/images/rept/task_12.1.png)
+    <figcaption>Вывод размера папок /home, /var, /var/log</figcaption>
   </div>
 
 ##### Выведи размер всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя *).
 
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_12.3.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    ![screen_task_2.2](misc/images/rept/task_12.2.png)
+    <figcaption>Вывод размера всего содержимого в /var/log</figcaption>
   </div>
 
 ## Part 13. Установка и использование утилиты **ncdu**
@@ -339,17 +340,17 @@ pid по процу - 1474
 
 <div align="center">
     ![screen_task_2.2](misc/images/rept/task_13.1.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Вывод размера папок /home, /var</figcaption>
 </div>
 
 <div align="center">
     ![screen_task_2.2](misc/images/rept/task_13.2.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Вывод размера папки /var/log</figcaption>
 </div>
 
 <div align="center">
     ![screen_task_2.2](misc/images/rept/task_13.3.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Вывод размера содержимого папки /var/log</figcaption>
 </div>
 
 
@@ -361,30 +362,30 @@ pid по процу - 1474
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_14.1.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Последняя авторизация пользователя</figcaption>
   </div>
 
 Перезапуск sshd
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_14.2.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Сообщение о рестарте службы</figcaption>
   </div>
 
 ## Part 15. Использование планировщика заданий **CRON**
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_15.1.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Вывод команды crontab -l</figcaption>
   </div>
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_15.2.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Строки в логе о выполнеии задачи в cron</figcaption>
   </div>
 
   После удаления всех задач
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_15.3.png)
-    <figcaption>Вывод fdisk -l</figcaption>
+    <figcaption>Вывод команды crontab -l</figcaption>
   </div>
