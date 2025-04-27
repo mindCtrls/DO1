@@ -54,6 +54,7 @@ lo - локахост (127.0.0.1) интерфейс, указывающий н�
     ![screen_task_2.2](misc/images/rept/task_3.5.1.png)
     <figcaption>Внещний ip адрес</figcaption>
   </div>
+  <br>  
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_3.5.2.png)
     <figcaption>Внутренний ip адрес</figcaption>
@@ -90,7 +91,7 @@ root пользователь - это пользователь у которо�
     ![screen_task_2.2](misc/images/rept/task_5.1.png)
     <figcaption>Вывод содержимого /etc/sudoers</figcaption>
   </div>
-
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_5.2.png)
     <figcaption>Вход под пользователем fuse и смена hostname под ним</figcaption>
@@ -157,6 +158,7 @@ root пользователь - это пользователь у которо�
     ![screen_task_2.2](misc/images/rept/task_7.3.1.1.png)
     <figcaption>Поиск в редакторе nano</figcaption>
   </div>
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.1.2.png)
     <figcaption>Замена в редакторе nano</figcaption>
@@ -168,6 +170,7 @@ root пользователь - это пользователь у которо�
     ![screen_task_2.2](misc/images/rept/task_7.3.2.1.png)
     <figcaption>Поиск в редакторе vim</figcaption>
   </div>
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.2.1.png)
     <figcaption>Замена в редакторе vim</figcaption>
@@ -180,6 +183,7 @@ root пользователь - это пользователь у которо�
     ![screen_task_2.2](misc/images/rept/task_7.3.3.1.png)
     <figcaption>Поиск в редакторе emacs</figcaption>
   </div>
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.3.2.png)
     <figcaption>Замена в редакторе emacs</figcaption>
@@ -237,32 +241,32 @@ pid по процу - 1474
     ![screen_task_2.2](misc/images/rept/task_9.2.png)
     <figcaption>Сортировка по PID</figcaption>
   </div>
-  
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.3.png)
     <figcaption>Сортировка по Percent CPU</figcaption>
   </div>
-  
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.4.png)
     <figcaption>Сортировка по Percent_mem</figcaption>
   </div>
-  
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.5.png)
     <figcaption>Сортировка по TIME</figcaption>
   </div>
-  
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.6.png)
     <figcaption>Фильтр sshd</figcaption>
   </div>
-  
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.7.png)
     <figcaption>Поиск syslog</figcaption>
   </div>
-  
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.8.png)
     <figcaption>Добавление информации о uptime, hostname, clock</figcaption>
@@ -279,7 +283,7 @@ pid по процу - 1474
     ![screen_task_2.2](misc/images/rept/task_9.8.png)
     <figcaption>Вывод fdisk -l</figcaption>
   </div>
-
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.8.png)
     <figcaption>Вывод размера swap</figcaption>
@@ -343,12 +347,12 @@ pid по процу - 1474
     ![screen_task_2.2](misc/images/rept/task_13.1.png)
     <figcaption>Вывод размера папок /home, /var</figcaption>
 </div>
-
+<br>
 <div align="center">
     ![screen_task_2.2](misc/images/rept/task_13.2.png)
     <figcaption>Вывод размера папки /var/log</figcaption>
 </div>
-
+<br>
 <div align="center">
     ![screen_task_2.2](misc/images/rept/task_13.3.png)
     <figcaption>Вывод размера содержимого папки /var/log</figcaption>
@@ -379,12 +383,12 @@ pid по процу - 1474
     ![screen_task_2.2](misc/images/rept/task_15.1.png)
     <figcaption>Вывод команды crontab -l</figcaption>
   </div>
-
+  <br>
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_15.2.png)
     <figcaption>Строки в логе о выполнеии задачи в cron</figcaption>
   </div>
-
+  <br>
   После удаления всех задач
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_15.3.png)
