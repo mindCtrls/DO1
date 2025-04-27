@@ -1,3 +1,9 @@
+<style>
+   div {
+    margin-top: 20%; /* Отступ сверху */
+   }
+  </style>
+
 ## Part 1. Установка ОС
 <div align="center">
   ![screen_task_1](misc/images/rept/task_1.png)
