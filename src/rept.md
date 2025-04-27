@@ -1,10 +1,10 @@
 ## Part 1. Установка ОС
 <div align="center">
-  <img width="400" height="250" src="misc/images/rept/task_1.png">
-  
+  ![screen_task_1](misc/images/rept/task_1.png)
+  <figcaption>Вывод версии ОС</figcaption>
 </div>
 
-![screen_task_1](misc/images/rept/task_1.png)
+
 
 
 ## Part 2. Создание пользователя
