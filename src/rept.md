@@ -12,7 +12,7 @@
   ![screen_task_2.1](misc/images/rept/task_2.1.png)
   <figcaption>Команда для создания пользователя</figcaption>
 </div>
-<div align="center" style="margin-top: 20%">
+<div align="center" style="margin-top: 20px">
   ![screen_task_2.2](misc/images/rept/task_2.2.png)
   <figcaption>Вывод команды cat /etc/passwd</figcaption>
 </div>
