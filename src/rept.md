@@ -124,7 +124,7 @@ root пользователь - это пользователь у которо�
 
   ctrl + x, ctrl + c - выход из emacs. Выдает контекстное меню в котором выбираем сохранение.
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_7.1.1.png)
+    ![screen_task_2.2](misc/images/rept/task_7.1.3.png)
     <figcaption>Окно emacs</figcaption>
   </div>
 
@@ -137,6 +137,7 @@ root пользователь - это пользователь у которо�
   </div>
 
   shift + : - вызов командной строки
+  <br>
   команда qa! - выход из программы без сохранения
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.2.2.png)
@@ -153,6 +154,7 @@ root пользователь - это пользователь у которо�
 ##### Используя каждый из трех выбранных редакторов, отредактируй файл ещё раз (по аналогии с предыдущим пунктом), а затем освой функции поиска по содержимому файла (слово) и замены слова на любое другое.
 
   ctrl + w,  - поиск
+  <br>
   ctrl + w , ctrl + r или ctrl + \ - замена
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.1.1.png)
@@ -165,6 +167,7 @@ root пользователь - это пользователь у которо�
   </div>
 
   / + слово - поиск
+  <br>
   :%s/a/u/g - замена во всем файле 'a' на 'u', без учета регистра
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.2.1.png)
@@ -172,12 +175,13 @@ root пользователь - это пользователь у которо�
   </div>
   <br>
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_7.3.2.1.png)
+    ![screen_task_2.2](misc/images/rept/task_7.3.2.2.png)
     <figcaption>Замена в редакторе vim</figcaption>
   </div>
 
 
   ctrl+s- поиск и переход по вхождениям
+  <br>
   alt+shift+5 - замена. n- пропуск, y-текущее, ! - все без подтверждения, q - отмена
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_7.3.3.1.png)
@@ -190,10 +194,10 @@ root пользователь - это пользователь у которо�
   </div>
 
 ## Part 8. Установка и базовая настройка сервиса **SSHD**
-sudo apt install ssh - установка
-sudo systemctl enable ssh - включение автозапуска
-sudo vim /etc/ssh/sshd_config - изменение конфига
-systemctl restart ssh - перазапуск службы, чтобы применился конфиг
+- sudo apt install ssh - установка
+- sudo systemctl enable ssh - включение автозапуска
+- sudo vim /etc/ssh/sshd_config - изменение конфига
+- systemctl restart ssh - перазапуск службы, чтобы применился конфиг
   
 ps aux | grep ssh
 - a - показывать процессы всех пользователей
@@ -228,14 +232,14 @@ netstat -tan
     <figcaption>Окно top</figcaption>
   </div>
 
-uptime (сколько сервер включен/активен) - 10:02
-user (кол-во авторизованных юзеров) - 1
-средняя нагрузка системы (LA) - 0.04, 0.05, 0.01
-кол-во процессов - 100
-загрузка cpu - 0.9
-загрузка памяти – 209.8 MiB
-pid по памяти - 1415
-pid по процу - 1474
+- uptime (сколько сервер включен/активен) - 10:02
+- user (кол-во авторизованных юзеров) - 1
+- средняя нагрузка системы (LA) - 0.04, 0.05, 0.01
+- кол-во процессов - 100
+- загрузка cpu - 0.9
+- загрузка памяти – 209.8 MiB
+- pid по памяти - 1415
+- pid по процу - 1474
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_9.2.png)
@@ -274,18 +278,18 @@ pid по процу - 1474
 
 ## Part 10. Использование утилиты **fdisk**
 
-название - /dev/sda
-размер 50 GiB
-кол-во секторов 104857600
-Размер swap - 4 GiB
+- название - /dev/sda
+- размер 50 GiB
+- кол-во секторов 104857600
+- Размер swap - 4 GiB
 
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_9.8.png)
+    ![screen_task_2.2](misc/images/rept/task_10.png)
     <figcaption>Вывод fdisk -l</figcaption>
   </div>
   <br>
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_9.8.png)
+    ![screen_task_2.2](misc/images/rept/task_10.2.png)
     <figcaption>Вывод размера swap</figcaption>
   </div>
 
@@ -294,10 +298,10 @@ pid по процу - 1474
 
 ##### Запусти команду df. 
 
-размер раздела 24590672
-размер занятого пространства 7367960
-размер свободного пространства 15948244
-процент использования - 32
+- размер раздела 24590672
+- размер занятого пространства 7367960
+- размер свободного пространства 15948244
+- процент использования - 32
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_11.1.png)
@@ -306,10 +310,10 @@ pid по процу - 1474
 
 ##### Запусти команду df -Th.
 
-размер раздела 24 GiB
-размер занятого пространства 7.1 GiB
-размер свободного пространства 16 GiB
-процент использования 32
+- размер раздела 24 GiB
+- размер занятого пространства 7.1 GiB
+- размер свободного пространства 16 GiB
+- процент использования 32
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_11.2.png)
@@ -361,9 +365,9 @@ pid по процу - 1474
 
 ## Part 14. Работа с системными журналами
 
-Метод входа - sshd
-Время входа Apr 26 18:07:47
-Имя пользователя flox
+- Метод входа - sshd
+- Время входа Apr 26 18:07:47
+- Имя пользователя flox
 
   <div align="center">
     ![screen_task_2.2](misc/images/rept/task_14.1.png)
@@ -391,6 +395,6 @@ pid по процу - 1474
   <br>
   После удаления всех задач
   <div align="center">
-    ![screen_task_2.2](misc/images/rept/task_15.3.png)
+    ![screen_task_2.2](misc/images/rept/task_15.3.1.png)
     <figcaption>Вывод команды crontab -l</figcaption>
   </div>
