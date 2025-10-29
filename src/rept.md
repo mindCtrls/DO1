@@ -1,6 +1,6 @@
 ## Part 1. Установка ОС
 <div align="center">
-  ![screen_task_1](/misc/images/rept/task_1.png)
+  ![screen_task_1](misc/images/rept/task_1.png)
   <figcaption>Вывод версии ОС</figcaption>
 </div>
 
