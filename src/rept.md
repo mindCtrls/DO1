@@ -1,6 +1,6 @@
 ## Part 1. Установка ОС
 <div align="center">
-  <img src="../misc/images/rept/task_1.png">
+  <img src="../misc/images/rept/task_1.png"><br>
   <figcaption>Вывод версии ОС</figcaption>
 </div>
 
@@ -8,12 +8,12 @@
 
 ## Part 2. Создание пользователя
 <div align="center">
-  <img src="../misc/images/rept/task_2.1.png">
+  <img src="../misc/images/rept/task_2.1.png"><br>
   <figcaption>Команда для создания пользователя</figcaption>
 </div>
 <br>  
 <div align="center">
-  <img src="../misc/images/rept/task_2.2.png">
+  <img src="../misc/images/rept/task_2.2.png"><br>
   <figcaption>Вывод команды cat /etc/passwd</figcaption>
 </div>
 
@@ -28,13 +28,13 @@
 - sudo timedatectl set-timezone Asia/Novosibirsk - установка временной зоны
 
 <div align="center">
-  <img src="../misc/images/rept/task_3.2.png">
+  <img src="../misc/images/rept/task_3.2.png"><br>
   <figcaption>Установка временной зоны и текущее время</figcaption>
 </div>
 
 ##### Выведи названия сетевых интерфейсов с помощью консольной команды.
 <div align="center">
-  <img src="../misc/images/rept/task_3.4.png">
+  <img src="../misc/images/rept/task_3.4.png"><br>
   <figcaption>Вывод сетевых интерфейсов</figcaption>
 </div>
 
@@ -43,33 +43,33 @@ lo - локахост (127.0.0.1) интерфейс, указывающий н�
 
 ##### Используя консольную команду, получи ip адрес устройства, на котором ты работаешь, от DHCP-сервера. 
 <div align="center">
-  <img src="../misc/images/rept/task_3.4_new.png">
+  <img src="../misc/images/rept/task_3.4_new.png"><br>
   <figcaption>Вывод ip от DHCP и вывод сетевых интерфейсов</figcaption>
 </div>
 
 ##### Определи и выведи на экран внешний ip-адрес шлюза (ip) и внутренний IP-адрес шлюза, он же ip-адрес по умолчанию (gw). 
 
   <div align="center">
-    <img src="../misc/images/rept/task_3.5.1.png">
+    <img src="../misc/images/rept/task_3.5.1.png"><br>
     <figcaption>Внещний ip адрес</figcaption>
   </div>
   <br>  
   <div align="center">
-    <img src="../misc/images/rept/task_3.5.2.png">
+    <img src="../misc/images/rept/task_3.5.2.png"><br>
     <figcaption>Внутренний ip адрес</figcaption>
   </div>
 
 ##### Задай статичные (заданные вручную, а не полученные от DHCP-сервера) настройки ip, gw, dns (используй публичный DNS-серверы, например 1.1.1.1 или 8.8.8.8).  
 
   <div align="center">
-    <img src="../misc/images/rept/task_3.6.png">
+    <img src="../misc/images/rept/task_3.6.png"><br>
     <figcaption>Вывод настроек для сетевого интерфейса enp0s3</figcaption>
   </div>
 
 ##### Перезагрузи виртуальную машину. Убедись, что статичные сетевые настройки (ip, gw, dns) соответствуют заданным в предыдущем пункте.  
 
   <div align="center">
-    <img src="../misc/images/rept/task_3.7.png">
+    <img src="../misc/images/rept/task_3.7.png"><br>
     <figcaption>ping хостов ya.ru и 1.1.1.1</figcaption>
   </div>
 
@@ -77,7 +77,7 @@ lo - локахост (127.0.0.1) интерфейс, указывающий н�
 ## Part 4. Обновление ОС
 
   <div align="center">
-    <img src="../misc/images/rept/task_4.png">
+    <img src="../misc/images/rept/task_4.png"><br>
     <figcaption>Вывод команды sudo apt update</figcaption>
   </div>
 
@@ -87,19 +87,19 @@ sudo (SuperUser DO) позволяет использовать команды �
 root пользователь - это пользователь у которого нет ограничений на выполнение команд. 
 
   <div align="center">
-    <img src="../misc/images/rept/task_5.1.png">
+    <img src="../misc/images/rept/task_5.1.png"><br>
     <figcaption>Вывод содержимого /etc/sudoers</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_5.2.png">
+    <img src="../misc/images/rept/task_5.2.png"><br>
     <figcaption>Вход под пользователем fuse и смена hostname под ним</figcaption>
   </div>
 
 ## Part 6. Установка и настройка службы времени
 
   <div align="center">
-    <img src="../misc/images/rept/task_6.png">
+    <img src="../misc/images/rept/task_6.png"><br>
     <figcaption>Вывод часового пояса и времени</figcaption>
   </div>
 
@@ -109,21 +109,21 @@ root пользователь - это пользователь у которо�
 
   ctrl + x - выход из nano. Выдает контекстное меню в котором выбираем сохранение.
   <div align="center">
-    <img src="../misc/images/rept/task_7.1.1.png">
+    <img src="../misc/images/rept/task_7.1.1.png"><br>
     <figcaption>Окно nano</figcaption>
   </div>
 
   shift + : - вызов командной строки
   команда wq - сохранение и выход из программы
   <div align="center">
-    <img src="../misc/images/rept/task_7.1.2.png">
+    <img src="../misc/images/rept/task_7.1.2.png"><br>
     <figcaption>Окно vim</figcaption>
   </div>
 
 
   ctrl + x, ctrl + c - выход из emacs. Выдает контекстное меню в котором выбираем сохранение.
   <div align="center">
-    <img src="../misc/images/rept/task_7.1.3.png">
+    <img src="../misc/images/rept/task_7.1.3.png"><br>
     <figcaption>Окно emacs</figcaption>
   </div>
 
@@ -131,7 +131,7 @@ root пользователь - это пользователь у которо�
 
   ctrl + x - выход из nano. Выдает контекстное меню в котором не выбираем сохранение.
   <div align="center">
-    <img src="../misc/images/rept/task_7.2.1.png">
+    <img src="../misc/images/rept/task_7.2.1.png"><br>
     <figcaption>Окно nano с измененным текстом</figcaption>
   </div>
 
@@ -139,14 +139,14 @@ root пользователь - это пользователь у которо�
   <br>
   команда qa! - выход из программы без сохранения
   <div align="center">
-    <img src="../misc/images/rept/task_7.2.2.png">
+    <img src="../misc/images/rept/task_7.2.2.png"><br>
     <figcaption>Окно vim с измененным текстом</figcaption>
   </div>
 
 
   ctrl + x, ctrl + c - выход из emacs. Выдает контекстное меню в котором не выбираем сохранение.
   <div align="center">
-    <img src="../misc/images/rept/task_7.2.3.png">
+    <img src="../misc/images/rept/task_7.2.3.png"><br>
     <figcaption>Окно emacs с измененным текстом</figcaption>
   </div>
 
@@ -156,12 +156,12 @@ root пользователь - это пользователь у которо�
   <br>
   ctrl + w , ctrl + r или ctrl + \ - замена
   <div align="center">
-    <img src="../misc/images/rept/task_7.3.1.1.png">
+    <img src="../misc/images/rept/task_7.3.1.1.png"><br>
     <figcaption>Поиск в редакторе nano</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_7.3.1.2.png">
+    <img src="../misc/images/rept/task_7.3.1.2.png"><br>
     <figcaption>Замена в редакторе nano</figcaption>
   </div>
 
@@ -169,12 +169,12 @@ root пользователь - это пользователь у которо�
   <br>
   :%s/a/u/g - замена во всем файле 'a' на 'u', без учета регистра
   <div align="center">
-    <img src="../misc/images/rept/task_7.3.2.1.png">
+    <img src="../misc/images/rept/task_7.3.2.1.png"><br>
     <figcaption>Поиск в редакторе vim</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_7.3.2.2.png">
+    <img src="../misc/images/rept/task_7.3.2.2.png"><br>
     <figcaption>Замена в редакторе vim</figcaption>
   </div>
 
@@ -183,12 +183,12 @@ root пользователь - это пользователь у которо�
   <br>
   alt+shift+5 - замена. n- пропуск, y-текущее, ! - все без подтверждения, q - отмена
   <div align="center">
-    <img src="../misc/images/rept/task_7.3.3.1.png">
+    <img src="../misc/images/rept/task_7.3.3.1.png"><br>
     <figcaption>Поиск в редакторе emacs</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_7.3.3.2.png">
+    <img src="../misc/images/rept/task_7.3.3.2.png"><br>
     <figcaption>Замена в редакторе emacs</figcaption>
   </div>
 
@@ -211,7 +211,7 @@ netstat -tan
 - n - отключает преобразование адрес в доменные имена
 
   <div align="center">
-    <img src="../misc/images/rept/task_8.png">
+    <img src="../misc/images/rept/task_8.png"><br>
     <figcaption>Вывод команды netstat -tan</figcaption>
   </div>
 
@@ -227,7 +227,7 @@ netstat -tan
 ## Part 9. Установка и использование утилит **top**, **htop**
 
   <div align="center">
-    <img src="../misc/images/rept/task_9.1.png">
+    <img src="../misc/images/rept/task_9.1.png"><br>
     <figcaption>Окно top</figcaption>
   </div>
 
@@ -241,37 +241,37 @@ netstat -tan
 - pid по процу - 1474
 
   <div align="center">
-    <img src="../misc/images/rept/task_9.2.png">
+    <img src="../misc/images/rept/task_9.2.png"><br>
     <figcaption>Сортировка по PID</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_9.3.png">
+    <img src="../misc/images/rept/task_9.3.png"><br>
     <figcaption>Сортировка по Percent CPU</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_9.4.png">
+    <img src="../misc/images/rept/task_9.4.png"><br>
     <figcaption>Сортировка по Percent_mem</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_9.5.png">
+    <img src="../misc/images/rept/task_9.5.png"><br>
     <figcaption>Сортировка по TIME</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_9.6.png">
+    <img src="../misc/images/rept/task_9.6.png"><br>
     <figcaption>Фильтр sshd</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_9.7.png">
+    <img src="../misc/images/rept/task_9.7.png"><br>
     <figcaption>Поиск syslog</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_9.8.png">
+    <img src="../misc/images/rept/task_9.8.png"><br>
     <figcaption>Добавление информации о uptime, hostname, clock</figcaption>
   </div>
 
@@ -283,12 +283,12 @@ netstat -tan
 - Размер swap - 4 GiB
 
   <div align="center">
-    <img src="../misc/images/rept/task_10.png">
+    <img src="../misc/images/rept/task_10.png"><br>
     <figcaption>Вывод fdisk -l</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_10.2.png">
+    <img src="../misc/images/rept/task_10.2.png"><br>
     <figcaption>Вывод размера swap</figcaption>
   </div>
 
@@ -303,7 +303,7 @@ netstat -tan
 - процент использования - 32
 
   <div align="center">
-    <img src="../misc/images/rept/task_11.1.png">
+    <img src="../misc/images/rept/task_11.1.png"><br>
     <figcaption>Вывод df</figcaption>
   </div>
 
@@ -315,7 +315,7 @@ netstat -tan
 - процент использования 32
 
   <div align="center">
-    <img src="../misc/images/rept/task_11.2.png">
+    <img src="../misc/images/rept/task_11.2.png"><br>
     <figcaption>Вывод df -Th</figcaption>
   </div>
 
@@ -325,20 +325,20 @@ netstat -tan
 
 ##### Запусти команду du.
   <div align="center">
-    <img src="../misc/images/rept/task_12.3.png">
+    <img src="../misc/images/rept/task_12.3.png"><br>
     <figcaption>Вывод du</figcaption>
   </div>
 
 ##### Выведи размер папок /home, /var, /var/log (в байтах, в человекочитаемом виде).
   <div align="center">
-    <img src="../misc/images/rept/task_12.1.png">
+    <img src="../misc/images/rept/task_12.1.png"><br>
     <figcaption>Вывод размера папок /home, /var, /var/log</figcaption>
   </div>
 
 ##### Выведи размер всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя *).
 
   <div align="center">
-    <img src="../misc/images/rept/task_12.2.png">
+    <img src="../misc/images/rept/task_12.2.png"><br>
     <figcaption>Вывод размера всего содержимого в /var/log</figcaption>
   </div>
 
@@ -347,17 +347,17 @@ netstat -tan
 ##### Выведи размер папок /home, /var, /var/log.
 
 <div align="center">
-    <img src="../misc/images/rept/task_13.1.png">
+    <img src="../misc/images/rept/task_13.1.png"><br>
     <figcaption>Вывод размера папок /home, /var</figcaption>
 </div>
 <br>
 <div align="center">
-    <img src="../misc/images/rept/task_13.2.png">
+    <img src="../misc/images/rept/task_13.2.png"><br>
     <figcaption>Вывод размера папки /var/log</figcaption>
 </div>
 <br>
 <div align="center">
-    <img src="../misc/images/rept/task_13.3.png">
+    <img src="../misc/images/rept/task_13.3.png"><br>
     <figcaption>Вывод размера содержимого папки /var/log</figcaption>
 </div>
 
@@ -369,31 +369,31 @@ netstat -tan
 - Имя пользователя flox
 
   <div align="center">
-    <img src="../misc/images/rept/task_14.1.png">
+    <img src="../misc/images/rept/task_14.1.png"><br>
     <figcaption>Последняя авторизация пользователя</figcaption>
   </div>
 
 Перезапуск sshd
 
   <div align="center">
-    <img src="../misc/images/rept/task_14.2.png">
+    <img src="../misc/images/rept/task_14.2.png"><br>
     <figcaption>Сообщение о рестарте службы</figcaption>
   </div>
 
 ## Part 15. Использование планировщика заданий **CRON**
 
   <div align="center">
-    <img src="../misc/images/rept/task_15.1.png">
+    <img src="../misc/images/rept/task_15.1.png"><br>
     <figcaption>Вывод команды crontab -l</figcaption>
   </div>
   <br>
   <div align="center">
-    <img src="../misc/images/rept/task_15.2.png">
+    <img src="../misc/images/rept/task_15.2.png"><br>
     <figcaption>Строки в логе о выполнеии задачи в cron</figcaption>
   </div>
   <br>
   После удаления всех задач
   <div align="center">
-    <img src="../misc/images/rept/task_15.3.1.png">
+    <img src="../misc/images/rept/task_15.3.1.png"><br>
     <figcaption>Вывод команды crontab -l</figcaption>
   </div>
